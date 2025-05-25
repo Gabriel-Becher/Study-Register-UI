@@ -1,0 +1,89 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.side-title {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #69e2d2;
+}
+
+.logForm > * > * {
+  display: block;
+}
+
+.logForm {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logForm h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.logForm input {
+  font-size: 1.2rem;
+  border: black solid 1px;
+  border-radius: 10px;
+  color: #333;
+  padding: 5px;
+  margin: 10px;
+}
+
+.logForm input:focus {
+  outline: none;
+  border-color: #525252;
+}
+
+.logForm button {
+  font-size: 1.2rem;
+  border: black solid 1px;
+  border-radius: 10px;
+  color: #333;
+  padding: 5px;
+  margin: 10px;
+  background-color: #39b5e6;
+}
+
+img {
+  width: 15%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 12px;
+}
+
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 30%;
+  margin-top: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+}
+
+progress::-webkit-progress-value {
+  background-color: #cc4a4a;
+}
